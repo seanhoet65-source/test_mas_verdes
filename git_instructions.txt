@@ -1,0 +1,34 @@
+(base) (base) PS C:\Users\anape> cd C:\Users\anape\OneDrive\Desktop\MSc\hkthn
+(base) (base) PS C:\Users\anape\OneDrive\Desktop\MSc\hkthn> git clone https://github.com/seanhoet65-source/test_mas_verdes.git
+remote: Enumerating objects: 16, done.
+remote: Counting objects: 100% (16/16), done.
+remote: Compressing objects: 100% (13/13), done.
+remote: Total 16 (delta 4), reused 13 (delta 3), pack-reused 0 (from 0)
+Receiving objects: 100% (16/16), 12.36 KiB | 790.00 KiB/s, done.
+Resolving deltas: 100% (4/4), done.
+(base) (base) PS C:\Users\anape\OneDrive\Desktop\MSc\hkthn> cd test_mas_verdes
+(base) (base) PS C:\Users\anape\OneDrive\Desktop\MSc\hkthn\test_mas_verdes> git checkout -b 'ana_crybaby'
+Switched to a new branch 'ana_crybaby'
+(base) (base) PS C:\Users\anape\OneDrive\Desktop\MSc\hkthn\test_mas_verdes> git add .
+(base) (base) PS C:\Users\anape\OneDrive\Desktop\MSc\hkthn\test_mas_verdes> git commit -m 'wamp wamp waaaaaamp'
+On branch ana_crybaby
+nothing to commit, working tree clean
+(base) (base) PS C:\Users\anape\OneDrive\Desktop\MSc\hkthn\test_mas_verdes> git push
+fatal: The current branch ana_crybaby has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin ana_crybaby
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+(base) (base) PS C:\Users\anape\OneDrive\Desktop\MSc\hkthn\test_mas_verdes>     git push --set-upstream origin ana_crybaby
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: 
+remote: Create a pull request for 'ana_crybaby' on GitHub by visiting:
+remote:      https://github.com/seanhoet65-source/test_mas_verdes/pull/new/ana_crybaby
+remote:
+To https://github.com/seanhoet65-source/test_mas_verdes.git
+ * [new branch]      ana_crybaby -> ana_crybaby
+branch 'ana_crybaby' set up to track 'origin/ana_crybaby'.
+(base) (base) PS C:\Users\anape\OneDrive\Desktop\MSc\hkthn\test_mas_verdes> 
