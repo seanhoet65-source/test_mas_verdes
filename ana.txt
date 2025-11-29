@@ -1,1 +1,93 @@
 sfni
+(base) (base) PS C:\Users\anape\OneDrive\Desktop\MSc\hackathon_2\test_mas_verdes> git checkout -b 'success'
+(base) (base) PS C:\Users\anape\OneDrive\Desktop\MSc\hackathon_2\test_mas_verdes> git add .
+(base) (base) PS C:\Users\anape\OneDrive\Desktop\MSc\hackathon_2\test_mas_verdes> git commit -m 'trial'
+On branch success
+nothing to commit, working tree clean
+(base) (base) PS C:\Users\anape\OneDrive\Desktop\MSc\hackathon_2\test_mas_verdes> git push
+fatal: The current branch success has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+(base) (base) PS C:\Users\anape\OneDrive\Desktop\MSc\hackathon_2\test_mas_verdes> git push
+fatal: The current branch success has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+(base) (base) PS C:\Users\anape\OneDrive\Desktop\MSc\hackathon_2\test_mas_verdes> git push --set-upstream origin success
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'success' on GitHub by visiting:
+remote:      https://github.com/seanhoet65-source/test_mas_verdes/pull/new/success
+remote:
+To https://github.com/seanhoet65-source/test_mas_verdes.git
+ * [new branch]      success -> success
+branch 'success' set up to track 'origin/success'.
+(base) (base) PS C:\Users\anape\OneDrive\Desktop\MSc\hackathon_2\test_mas_verdes> git commit
+Aborting commit due to empty commit message.
+[success 1e04d05] messade
+ 1 file changed, 1 insertion(+)
+ create mode 100644 ana.txt
+(base) (base) PS C:\Users\anape\OneDrive\Desktop\MSc\hackathon_2\test_mas_verdes> git add .
+(base) (base) PS C:\Users\anape\OneDrive\Desktop\MSc\hackathon_2\test_mas_verdes> git commit -m 'try'
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text.py
+(base) (base) PS C:\Users\anape\OneDrive\Desktop\MSc\hackathon_2\test_mas_verdes> git push
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 498 bytes | 166.00 KiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/seanhoet65-source/test_mas_verdes.git
+(base) (base) PS C:\Users\anape\OneDrive\Desktop\MSc\hackathon_2\test_mas_verdes> git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+(base) (base) PS C:\Users\anape\OneDrive\Desktop\MSc\hackathon_2\test_mas_verdes> git pull 'success'
+fatal: 'success' does not appear to be a git repository
+
+Please make sure you have the correct access rights
+and the repository exists.
+(base) (base) PS C:\Users\anape\OneDrive\Desktop\MSc\hackathon_2\test_mas_verdes> git pull origin main
+From https://github.com/seanhoet65-source/test_mas_verdes
+Already up to date.
+(base) (base) PS C:\Users\anape\OneDrive\Desktop\MSc\hackathon_2\test_mas_verdes> git merge 'success'
+Updating 6c35dd5..7f82764
+ text.py | 1 +
+ 2 files changed, 2 insertions(+)
+ create mode 100644 text.py
+(base) (base) PS C:\Users\anape\OneDrive\Desktop\MSc\hackathon_2\test_mas_verdes> git add .
+(base) (base) PS C:\Users\anape\OneDrive\Desktop\MSc\hackathon_2\test_mas_verdes> git commit 
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+(base) (base) PS C:\Users\anape\OneDrive\Desktop\MSc\hackathon_2\test_mas_verdes> git commit -m 'test'
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+(base) (base) PS C:\Users\anape\OneDrive\Desktop\MSc\hackathon_2\test_mas_verdes> git push
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/seanhoet65-source/test_mas_verdes.git
+   6c35dd5..7f82764  main -> main
+(base) (base) PS C:\Users\anape\OneDrive\Desktop\MSc\hackathon_2\test_mas_verdes> git add .      
+(base) (base) PS C:\Users\anape\OneDrive\Desktop\MSc\hackathon_2\test_mas_verdes> git commit -m 'dfj'
+[main 386badb] dfj
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+(base) (base) PS C:\Users\anape\OneDrive\Desktop\MSc\hackathon_2\test_mas_verdes> git push 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 264 bytes | 132.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/seanhoet65-source/test_mas_verdes.git
+   7f82764..386badb  main -> main
+(base) (base) PS C:\Users\anape\OneDrive\Desktop\MSc\hackathon_2\test_mas_verdes> git checkout 'success'
+Switched to branch 'success'
+Your branch is up to date with 'origin/success'.
